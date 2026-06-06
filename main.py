@@ -15,7 +15,7 @@ def play():
             if move == 'q':
                 save_scores(wins, losses, ties)
                 show_final(wins, losses, ties)
-            break
+                break
 
             if not is_valid_move(move):
                 show_invalid()
