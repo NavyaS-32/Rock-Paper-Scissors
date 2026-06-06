@@ -64,3 +64,23 @@ Future Improvements
 	•	Rock-Paper-Scissors-Lizard-Spock variation
 
 Created as a Python learning project — inspired by Rock Paper Scissors example from the book Automate the Boring Stuff with Python by Al Sweigart.
+# Rock Paper Scissors — Refactored
+
+A command-line Rock Paper Scissors game built in Python.
+
+## What I changed
+The original was a single script with all logic, display, and 
+state mixed together. Refactored into three modules:
+
+- `game.py` — move logic and result calculation
+- `display.py` — all terminal output
+- `main.py` — game loop and entry point
+
+## How to run
+python3 main.py
+
+## What I learned
+- Modular code structure and separation of concerns
+- Git workflow and meaningful commit messages
+- Importing between modules
+
